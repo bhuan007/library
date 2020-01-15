@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Library</title>
+    <link href="styles/style.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa|Source+Sans+Pro&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="headingBar">
+        <h1>My Library</h1>
+    </div>
+
+    <div class="table">
+        <table>
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>Pages</th>
+                    <th>Status</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody class="tableData">
+            </tbody>
+        </table>
+        <button class="addBookBtn" onclick="showForm()">Add Book</button>
+    </div>
+
+    <div class="addBookForm">
+        Title
+        <input type="text" id="title">
+        Author
+        <input type="text" id="author">
+        Pages
+        <input type="text" id="pages">
+        Status
+        <select id="status">
+            <option value="true">Read</option>
+            <option value="false" selected>Not Read</option>
+        </select>
+        <div class="formBtns">
+            <button onclick="formSubmit()">Submit</button>
+            <button onclick="hideForm()">Close Form</button>
+        </div>
+
+        <script src="scripts/script.js"></script>
+</body>
+
+</html>

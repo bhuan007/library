@@ -1,0 +1,81 @@
+h1{
+    padding: 1em;
+    font-family: 'Comfortaa', cursive;
+    color: #0e7ff7;
+}
+
+.headingBar{
+    background-color: #ecc30b;
+    color: #FFFFFF;
+    border-radius: 5px;
+    border: solid 5px black;
+}
+
+body{
+    background-color: #FFFFFF;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+thead{
+    color: #0e7ff7;
+    font-family: 'Comfortaa', cursive;
+}
+
+button{
+    background-color: #0e7ff7;
+    color: white;
+    border-radius: 4px;
+}
+
+select{
+    background-color: #FFFFFF;
+    color: black;
+    border-radius: 4px;
+}
+
+.addBookBtn{
+    background-color: #0e7ff7;
+    margin-top: 50px;
+    color: white;
+    height: 100px;
+    width: 200px;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.addBookForm{
+    display: none;
+    grid-template-rows: repeat(4, 1fr);
+    grid-gap: 1em;
+    width: 15%;
+    position: fixed;
+    top: 10%;
+    left: 40%;
+    background-color: #FFFFFF;
+    padding: 1em;
+    border-radius: 10px;
+}
+
+.formBtns{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.table{
+    padding: 1em;
+    font-size: 1em;
+}
+
+table{
+    width: 1000px;
+    border-collapse: collapse;
+}
+
+th, td {
+    border-bottom: 1px solid #b8b8b8;
+}
+
+tr:nth-child(even){
+    background-color: #ffeb96;
+}
